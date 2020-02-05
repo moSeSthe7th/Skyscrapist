@@ -29,6 +29,9 @@ public class InitializationScript : MonoBehaviour
         DataScript.highestPointOnAHex = 0;
         DataScript.highestHexScale = 0;
 
+        //Remove when decided
+        DataScript.isCityOpen = true;
+
         GameObject primaryMap = Instantiate(Resources.Load<GameObject>("Levels/" + DataScript.currentLevel.ToString()), Vector3.zero, Quaternion.identity);
     }
 

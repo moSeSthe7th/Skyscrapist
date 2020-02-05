@@ -23,5 +23,8 @@ public static class DataScript
 
     public static float highestPointOnAHex;
     public static float highestHexScale;
+
+    //Remove when decided
+    public static bool isCityOpen;
     
 }

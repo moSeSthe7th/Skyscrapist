@@ -51,7 +51,8 @@ public class GameHandler : MonoBehaviour
         }
 
 
-        gameOverCity.SetActive(true);
+        if(DataScript.isCityOpen)
+            gameOverCity.SetActive(true);
 
         Debug.Log("GAME OVER");
         mainCam.orthographic = false;
