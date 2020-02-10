@@ -163,7 +163,7 @@ public class SkyscraperScript : MonoBehaviour
         while(hexScaler.z < (initialZ + hexCount * 10))
         {
             
-            hexScaler.z++;
+            hexScaler.z += 3f;
 
             if(hexScaler.z > DataScript.highestHexScale)
             {

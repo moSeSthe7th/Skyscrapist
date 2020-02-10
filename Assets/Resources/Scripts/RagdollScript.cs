@@ -130,9 +130,9 @@ public class RagdollScript : MonoBehaviour
         //Ragdoll move to target rotation
         animator.SetBool("isJumping", true);
         animator.SetBool("isOnAir", true);
-        for (int j = 0; j < 25; j++)
+        for (int j = 0; j < 20; j++)
         {
-            tParam += 0.04f;
+            tParam += 0.05f;
             SetRagdollPosition();
 
             if (tParam < 0.6f)
