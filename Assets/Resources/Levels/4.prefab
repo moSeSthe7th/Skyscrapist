@@ -25658,7 +25658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ragdoll: {fileID: 0}
-  cameraSize: 3
+  cameraSize: 4
   ragdollStartPos: {x: 0, y: 12, z: -2}
   ragdollStartColorNo: 0
 --- !u!1 &6174037769376984234
