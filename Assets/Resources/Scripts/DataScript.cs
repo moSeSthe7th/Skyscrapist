@@ -24,6 +24,8 @@ public static class DataScript
     public static float highestPointOnAHex;
     public static float highestHexScale;
 
+    public static int gemCount;
+
     //Remove when decided
     public static bool isCityOpen;
     

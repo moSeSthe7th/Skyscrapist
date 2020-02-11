@@ -20,6 +20,8 @@ public class InitializationScript : MonoBehaviour
         //turn on and off the colors, no colors make the game easier
         DataScript.isColorsActive = false;
 
+        DataScript.gemCount = PlayerPrefs.GetInt("Gem Count", 0);
+
         DataScript.colorZeroList = new List<int>();
         DataScript.colorOneList = new List<int>();
         DataScript.colorTwoList = new List<int>();

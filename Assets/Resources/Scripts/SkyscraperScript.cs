@@ -18,6 +18,9 @@ public class SkyscraperScript : MonoBehaviour
 
     private GameHandler gameHandler;
 
+    public bool isGemInsideThis;
+    public GameObject gem;
+
     void Start()
     {
         hexParticleSys = GetComponentInChildren<ParticleSystem>();
@@ -32,12 +35,24 @@ public class SkyscraperScript : MonoBehaviour
         SetCountText();
     }
 
+    void GemCollected()
+    {
+        StartCoroutine(gem.GetComponent<GemScript>().GemCollectedAnimations());
+    }
+
    
     public IEnumerator RagdollOnThis(Color ragdollColor, int ragdollCount, int ragdollColorNo)
     {
         RemoveHexFromList();
         float counter = 0;
         float duration = 0.3f;
+
+        if (isGemInsideThis)
+        {
+            GemCollected();
+            isGemInsideThis = false;
+        }
+            
 
         var colorOverLifetime = hexParticleSys.colorOverLifetime;
         Gradient gradient = new Gradient();
