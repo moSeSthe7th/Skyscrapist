@@ -31,7 +31,10 @@ public class RagdollScript : MonoBehaviour
     {
         inputX = new InputX();
         ragdollMat = GetComponentInChildren<Renderer>().material;
-        ragdollMat.color = DataScript.hexColors[ragdollColorNo];
+
+        //uncomment this to give ragdoll a color (one of hex colors) at the start of level
+        //ragdollMat.color = DataScript.hexColors[ragdollColorNo];
+
         ragdollCountText = GetComponentInChildren<Text>();
         SetCountText();
         initialYPos = transform.position.y;

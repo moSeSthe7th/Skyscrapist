@@ -18,7 +18,11 @@ public class LevelScript : MonoBehaviour
             RagdollScript ragdollScript = ragdoll.GetComponent<RagdollScript>();
 
             ragdoll.transform.position = ragdollStartPos;
-            ragdollScript.ragdollColorNo = ragdollStartColorNo;
+
+            //uncomment this to give ragdoll a color (one of hex colors) at the start of level
+            //ragdollScript.ragdollColorNo = ragdollStartColorNo;
+
+            //uncomment this to give ragdoll a count at the start of the level
             //ragdollScript.ragdollCount = ragdollCount;
             
         }
