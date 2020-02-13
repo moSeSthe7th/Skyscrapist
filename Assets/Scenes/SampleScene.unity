@@ -1378,7 +1378,7 @@ RectTransform:
   m_Father: {fileID: 1511335819}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.18, y: 0.91}
+  m_AnchorMin: {x: 0.15, y: 0.91}
   m_AnchorMax: {x: 0.35, y: 0.98}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -1608,7 +1608,7 @@ RectTransform:
   - {fileID: 1124885197}
   - {fileID: 92395792}
   - {fileID: 945473446}
-  - {fileID: 4580337688994356}
+  - {fileID: 1517423819249688}
   - {fileID: 1276601191}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1924,7 +1924,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4580337688994356}
+  - component: {fileID: 1517423819249688}
   - component: {fileID: 33922765471388732}
   - component: {fileID: 23651298066896890}
   - component: {fileID: 1517423819249687}
@@ -1947,20 +1947,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b97703fd56555c4b9d7878cf2b5771b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &4580337688994356
-Transform:
+--- !u!224 &1517423819249688
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517423819249686}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -300, y: 584, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 75, y: 75, z: 75}
   m_Children: []
   m_Father: {fileID: 1511335819}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.88}
+  m_AnchorMax: {x: 0.2, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &5330109708693467
 MeshRenderer:
   m_ObjectHideFlags: 0
