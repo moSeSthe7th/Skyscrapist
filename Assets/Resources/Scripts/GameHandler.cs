@@ -59,7 +59,7 @@ public class GameHandler : MonoBehaviour
         mainCam.fieldOfView = 45f;
         gameOverCameraLookPos = Vector3.zero;
 
-        ragdoll.SetActive(false);
+        //ragdoll.SetActive(false);
 
         for(int j = 0; j < 60; j++)
         {

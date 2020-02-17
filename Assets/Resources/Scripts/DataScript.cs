@@ -26,6 +26,8 @@ public static class DataScript
 
     public static int gemCount;
 
+    public static GameObject hexContainsRagdollWhenGameOver;
+
     //Remove when decided
     public static bool isCityOpen;
     

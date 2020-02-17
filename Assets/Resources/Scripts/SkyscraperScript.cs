@@ -103,6 +103,7 @@ public class SkyscraperScript : MonoBehaviour
         }
         
         AddHexToCorrespondingList();
+        DataScript.hexContainsRagdollWhenGameOver = this.gameObject;
        
         StopCoroutine(RagdollOnThis(ragdollColor, ragdollCount, ragdollColorNo));
         
@@ -187,6 +188,12 @@ public class SkyscraperScript : MonoBehaviour
                 
             }
             transform.localScale = hexScaler;
+            if(DataScript.hexContainsRagdollWhenGameOver == this.gameObject)
+            {
+                GameObject ragdoll = GameObject.FindWithTag("Ragdoll");
+                ragdoll.transform.localScale = Vector3.one * 0.9f;
+                ragdoll.transform.position = transform.GetChild(0).position;
+            }
             yield return new WaitForEndOfFrame();
         }
     }
