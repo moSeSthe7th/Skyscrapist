@@ -13,7 +13,7 @@ public class RagdollScript : MonoBehaviour
     private float initialYPos;
 
     private Material ragdollMat;
-    private Text ragdollCountText;
+    public Text ragdollCountText;
 
     Animator animator;
 

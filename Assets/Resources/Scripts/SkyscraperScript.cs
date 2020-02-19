@@ -191,6 +191,7 @@ public class SkyscraperScript : MonoBehaviour
             if(DataScript.hexContainsRagdollWhenGameOver == this.gameObject)
             {
                 GameObject ragdoll = GameObject.FindWithTag("Ragdoll");
+                ragdoll.GetComponent<RagdollScript>().ragdollCountText.text = "";
                 ragdoll.transform.localScale = Vector3.one * 0.9f;
                 ragdoll.transform.position = transform.GetChild(0).position;
             }
