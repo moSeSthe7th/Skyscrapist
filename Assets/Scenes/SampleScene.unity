@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e031c2beaa9b735459a9c7f982cafa7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverCameraPos: {x: 0, y: 35, z: -8}
+  gameOverCameraPos: {x: 0, y: 35, z: -4.5}
   gameOverCameraLookPos: {x: 0, y: 0, z: 0}
   gameOverCity: {fileID: 1688012978}
 --- !u!1 &138565736
@@ -477,8 +477,8 @@ RectTransform:
   m_Father: {fileID: 92395792}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8}
-  m_AnchorMax: {x: 1, y: 0.9}
+  m_AnchorMin: {x: 0, y: 0.85}
+  m_AnchorMax: {x: 1, y: 0.93}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
