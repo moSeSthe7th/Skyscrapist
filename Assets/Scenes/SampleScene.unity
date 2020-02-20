@@ -19544,6 +19544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ragdollColorNo: 0
   ragdollCount: 0
+  ragdollCountText: {fileID: 0}
   route: {fileID: 1079183058}
   moveSpeed: 0
 --- !u!23 &3024048511568314489

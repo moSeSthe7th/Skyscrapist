@@ -11,7 +11,7 @@ public class InitializationScript : MonoBehaviour
             new Color(1, 0.8548142f, 0), new Color(1f, 0.2122642f, 0.3937522f),new Color(0.8113208f, 0, 0.7782146f) };
 
         
-        DataScript.maxLevel = 5;
+        DataScript.maxLevel = 6;
         DataScript.currentLevel = PlayerPrefs.GetInt("Current Level", 1);
 
         //lock/unlock the input
